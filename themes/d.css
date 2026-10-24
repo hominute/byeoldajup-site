@@ -1,0 +1,4 @@
+:root{--page:#101631;--surface:#1b2548;--ink:#fff9e9;--muted:#b0b8d8;--accent:#fff0a7;--accent-ink:#242947;--line:#455075;--notice:#151d3b;--notice-ink:#d3d9eb;--focus:#d8bfff;--radius:25px;--button-radius:15px;--hero-radius:30px;--soft-shadow:#0002;--card-shadow:0 8px 32px #02071933;--button-shadow:0 3px 0 #0002;--image-bg:#242f54;--badge:#35365e;--chip:#2b3556;--chip-line:#4e587b;--hook:#e4d7ff;--hero-color:#101631;--hero-bg:url('../assets/themes/d/background.webp');--hero-ink:#fff7e1;--hero-overlay:linear-gradient(90deg,#101631cc,transparent);--display-font:ByulSans,sans-serif}
+body[data-theme=D] .brand-name{color:#fff0bd;text-shadow:0 0 22px #e6cbff33;letter-spacing:-.07em}
+body[data-theme=D] .site-header{background-position:64% center}
+body[data-theme=D] .item-number{color:#fff1bd}

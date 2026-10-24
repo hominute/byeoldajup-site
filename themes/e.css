@@ -1,0 +1,4 @@
+:root{--page:#eaf3e6;--surface:#fffbed;--ink:#234c39;--muted:#68745b;--accent:#ffc445;--accent-ink:#3a411c;--line:#aaba96;--notice:#e6efdd;--notice-ink:#5c6d50;--focus:#457758;--radius:8px;--button-radius:5px;--hero-radius:0px;--soft-shadow:#8ca57b;--card-shadow:3px 4px 0 #abc19a;--button-shadow:0 4px 0 #9aa66d;--image-bg:#e1e7d2;--badge:#f8e3a8;--chip:#eef0d9;--chip-line:#bdc89d;--hook:#477735;--hero-color:#e7f0df;--hero-bg:url('../assets/themes/e/background.webp');--hero-ink:#234a35;--hero-overlay:linear-gradient(90deg,#e8f1e1dd,transparent);--display-font:DoHyeon,ByulSans,sans-serif;--brand-spacing:-.03em;--card-border:2px solid #aaba96}
+body[data-theme=E] .brand-name{text-shadow:2px 3px #d5bd5c;font-weight:400}
+body[data-theme=E] .hero-character{image-rendering:pixelated;animation-timing-function:steps(3,end)}
+body[data-theme=E] .category-pill,body[data-theme=E] .random-pick{border-width:2px}

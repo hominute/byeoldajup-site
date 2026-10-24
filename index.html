@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="별걸 다 줍네, 별다줍. 영상에서 소개한 상품을 이름이나 번호로 찾아보세요.">
+  <meta name="theme-color" content="#fff7e8">
+  <title>별다줍 · 오늘도 줍줍 중</title>
+  <link rel="stylesheet" href="themes/base.css">
+  <link id="theme-stylesheet" rel="stylesheet" href="themes/a.css">
+  <script src="js/app.js" defer></script>
+</head>
+<body data-theme="A">
+  <div class="affiliate-banner" role="note">이 페이지는 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.</div>
+  <div class="site-shell">
+    <header class="site-header">
+      <div class="header-topline">
+        <a class="brand-lockup" href="./" aria-label="별다줍 처음으로">
+          <span class="brand-name">별다줍<span class="brand-star" aria-hidden="true">✦</span></span>
+          <span class="brand-tagline">별걸 다 줍네</span>
+        </a>
+        <button id="theme-picker" class="theme-picker" type="button" aria-haspopup="dialog" aria-controls="theme-dialog">테마 고르기 <span aria-hidden="true">✦</span></button>
+      </div>
+      <div class="site-hero">
+        <div class="hero-copy">
+          <p class="hero-kicker">작은 발견을 모으는 곳</p>
+          <h1>오늘도 줍줍 중<span class="hero-dots" aria-hidden="true">…</span></h1>
+          <p class="hero-description">영상 속 그 물건, 여기 모았어요.</p>
+        </div>
+        <img class="hero-character" src="assets/themes/a/character.png" alt="" decoding="async">
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section class="discovery-controls" aria-label="상품 찾기">
+        <label class="search-field" for="item-search">
+          <span class="search-icon" aria-hidden="true">⌕</span>
+          <span class="visually-hidden">상품 이름이나 영상 번호로 찾기</span>
+          <input id="item-search" type="search" inputmode="search" autocomplete="off" placeholder="001 또는 상품 이름으로 찾기" disabled>
+        </label>
+        <div id="category-list" class="category-list" role="group" aria-label="상품 분류"></div>
+      </section>
+
+      <section class="results-section" aria-labelledby="results-title">
+        <div class="results-toolbar">
+          <div class="results-title-group">
+            <h2 id="results-title">방금 주워온 것</h2>
+            <span id="result-count" class="result-count" role="status" aria-live="polite"></span>
+          </div>
+          <button id="random-pick" class="random-pick" type="button" disabled>아무거나 줍기 <span aria-hidden="true">✦</span></button>
+        </div>
+        <div id="status-message" class="status-message" role="status" aria-live="polite">상품을 불러오는 중이에요.</div>
+        <div id="item-list" class="item-list" aria-label="상품 목록" aria-busy="true"></div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p class="footer-brand">오늘도 좋은 걸 주웠다.<br>내일도 또, 별다줍 <span aria-hidden="true">✦</span></p>
+      <p class="source-disclosure">상품 이미지·정보는 쿠팡 상품페이지 확인 값(날짜 표기)이며 바뀔 수 있어요. 직접 사용 후기가 아니에요.</p>
+    </footer>
+  </div>
+
+  <dialog id="theme-dialog" class="theme-dialog" aria-labelledby="theme-dialog-title">
+    <div class="theme-dialog-content">
+      <div class="theme-dialog-heading">
+        <div><p class="theme-dialog-kicker">별다줍의 다섯 가지 모습</p><h2 id="theme-dialog-title">오늘은 어떤 테마로 줍줍할까?</h2></div>
+        <button id="close-theme-dialog" class="close-theme-dialog" type="button" aria-label="테마 선택 닫기">닫기 <span aria-hidden="true">×</span></button>
+      </div>
+      <div id="theme-choices" class="theme-choices"></div>
+    </div>
+  </dialog>
+  <div id="action-status" class="action-status visually-hidden" role="status" aria-live="polite"></div>
+</body>
+</html>

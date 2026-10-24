@@ -1,0 +1,4 @@
+:root{--page:#0853f7;--surface:#fffdf0;--ink:#142354;--muted:#637090;--accent:#ffe13f;--accent-ink:#142354;--line:#142354;--notice:#143a99;--notice-ink:#fff8da;--focus:#fc7faf;--radius:19px;--button-radius:11px;--hero-radius:12px;--soft-shadow:#132c73;--card-shadow:0 5px 0 #122b72;--button-shadow:0 4px 0 #172960;--image-bg:#eee8da;--badge:#dce8ff;--chip:#edf1ff;--chip-line:#c9d4f4;--hook:#174de0;--hero-color:#0753fc;--hero-bg:url('../assets/themes/b/background.webp');--hero-ink:#fffbe8;--hero-overlay:linear-gradient(90deg,#0753fcbd,transparent);--display-font:Jua,ByulSans,sans-serif;--card-border:2px solid #142354}
+body[data-theme=B] .brand-name{color:#ffe13f;text-shadow:3px 4px #112251;font-weight:400}
+body[data-theme=B] .results-toolbar h2,body[data-theme=B] #result-count{color:#fff9df}
+body[data-theme=B] .site-footer{color:#e5edff;border-color:#ffffff45}body[data-theme=B] .footer-brand{color:#ffe13f}

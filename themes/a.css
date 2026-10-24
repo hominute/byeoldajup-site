@@ -1,0 +1,3 @@
+:root{--page:#fff7e9;--surface:#fffdf6;--ink:#493322;--muted:#82725e;--accent:#f47d59;--accent-ink:#fffdf7;--line:#e8d7be;--notice:#fffaf0;--notice-ink:#75624e;--focus:#be623f;--radius:24px;--button-radius:14px;--hero-radius:28px;--soft-shadow:#ead6b644;--card-shadow:0 5px 20px #9f7a3010;--button-shadow:0 3px 0 #d2683e22;--image-bg:#f1ece0;--badge:#ffe5c6;--chip:#fff3df;--chip-line:#ead9bd;--hook:#b45935;--hero-color:#fff4df;--hero-bg:url('../assets/themes/a/background.webp');--hero-ink:#52331f;--hero-overlay:linear-gradient(90deg,#fff4dfdd,transparent 85%);--display-font:GowunDodum,ByulSans,sans-serif}
+body[data-theme=A] .site-header{background-position:center}
+body[data-theme=A] .brand-name{font-weight:900;text-shadow:0 2px #fff8}
